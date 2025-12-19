@@ -87,6 +87,13 @@ document.querySelector(".right-zone").addEventListener("click", () => {
     render();
   }
 });
+function goHome() {
+  window.location.href = "index.html";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("home-btn").onclick = goHome;
+  const homeBtn = document.getElementById("home-btn");
+  if (homeBtn) { // check it exists
+    homeBtn.onclick = goHome;
+  }
 });
