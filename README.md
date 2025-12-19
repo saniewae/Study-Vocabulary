@@ -13,7 +13,7 @@ An interactive tool I built to practice a selected set of words I came across wh
 - JavaScript
 
 ## Deployment
-- Hosted and deployed using Netlifly
+- Hosted and deployed using Netlify
 
 ## How to Use
 1. Open the website in your browser
